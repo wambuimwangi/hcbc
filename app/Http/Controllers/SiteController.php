@@ -18,4 +18,9 @@ class SiteController extends Controller
     	return view('about');
     }
 
+    public function paypalView()
+    {
+    	return view('paypal2');
+    }
+
 }

@@ -18,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 // Navigation bar routes
 Route::get('/', 'SiteController@index')->name('index');
 Route::get('about-us', 'SiteController@about')->name('about-us');
+
+// Paypal
+Route::get('paypal-view', 'SiteController@paypalView')->name('paypal-view');
